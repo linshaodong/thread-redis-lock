@@ -1,0 +1,20 @@
+{
+    "name": "linsd/thread-redis-lock",
+    "description": "laravel多线程并发锁机制redis",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "林绍东",
+            "email": "linsd@ymify.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+	      "Test\\Rose\\": "src/TestPath/Rose",
+	      "Test\\Lily\\": "src/TestPath/Lily"
+	}
+    }
+}
